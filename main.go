@@ -3,5 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello world")
+	// string variable defination and declaration
+	var name string = "Sumit"
+	var age uint
+	var bl bool
+	name = "updated name"
+
+	fmt.Println("Hello world", name)
+	fmt.Println("Hello age type", age)
+	fmt.Println("Hello boolean type", bl)
 }
